@@ -51,7 +51,9 @@ a {
     -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
 }
-
+.section {
+    padding: 20px 0 70px;
+}
 .header {
     background: $main-color;
     &__row {
@@ -59,6 +61,7 @@ a {
     }
 }
 .expert {
+    background: #f1f8ff;
     padding: 20px 40px;
     &__item {
         text-align: center;
