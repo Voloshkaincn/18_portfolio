@@ -16,6 +16,12 @@ a {
   font-weight: 300;
 }
 
+.main {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .coockie {
   background: #194277;
   color: #fff;
