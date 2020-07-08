@@ -1,4 +1,43 @@
+/*============  variables =======*/
+body {
+  font-family: "Lato", sans-serif;
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: calc(35 / 16);
+}
+
+a {
+  color: #5a5a5a;
+}
+
+.h2 {
+  font-size: 50px;
+  color: #3677fd;
+  font-weight: 300;
+}
+
 .header__row {
   justify-content: flex-end;
+}
+
+.expert__item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.expert__icon {
+  border: 1px solid #b7c0c9;
+  border-radius: 50%;
+  padding: 15px;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.expert__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3677fd;
 }
 /*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <symbol id="phone"  width="141px" height="141px">
+        <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(183, 192, 201)" fill="none"
+        d="M70.500,0.906 C108.935,0.906 140.094,32.064 140.094,70.500 C140.094,108.935 108.935,140.094 70.500,140.094 C32.064,140.094 0.906,108.935 0.906,70.500 C0.906,32.064 32.064,0.906 70.500,0.906 Z"/>
+    </symbol>
+
+</svg>

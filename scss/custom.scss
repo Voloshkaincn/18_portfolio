@@ -1,5 +1,47 @@
+/*============  variables =======*/
+$text-color: #5a5a5a;
+$text-light: #fff;
+$main-color: #3677fd;
+
+body {
+    font-family: "Lato", sans-serif;
+    color: $text-color;
+    font-size: 16px;
+    line-height: calc(35 / 16);
+}
+a {
+    color: $text-color;
+}
+
+.h2 {
+    font-size: 50px;
+    color: $main-color;
+    font-weight: 300;
+}
 .header {
     &__row {
         justify-content: flex-end;
+    }
+}
+.expert {
+    &__item {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__icon {
+        border: 1px solid #b7c0c9;
+        border-radius: 50%;
+        padding: 15px;
+        width: 140px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        color: $main-color;
     }
 }

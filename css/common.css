@@ -7989,18 +7989,6 @@ html {
     max-width: 1140px;
   }
 }
-/*============  variables =======*/
-body {
-  font-family: "Lato", sans-serif;
-  color: #5a5a5a;
-  font-size: 16px;
-  line-height: 35/16;
-}
-
-a {
-  color: #5a5a5a;
-}
-
 .text-center {
   text-align: center;
 }
