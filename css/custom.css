@@ -87,4 +87,34 @@ a {
   font-weight: 700;
   color: #3677fd;
 }
+
+.work__item {
+  padding: 30px 40px 0 40px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 50px;
+}
+.work__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.clients__item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.clients__item:hover .clients__img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.clients__img {
+  max-width: 100%;
+  filter: grayscale(100%);
+  opacity: 0.35;
+  transition: all 0.5s;
+}
 /*# sourceMappingURL=custom.css.map */
