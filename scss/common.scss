@@ -33,6 +33,11 @@ $spacers: map-merge(
 @import "../libs/bootstrap/scss/mixins/box-shadow";
 @import "../libs/bootstrap/scss/modal";
 
+button {
+    background: transparent;
+    border: none;
+}
+
 .text-center {
     text-align: center;
 }
