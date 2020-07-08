@@ -55,6 +55,7 @@ a {
 
 .expert {
   background: #f1f8ff;
+  padding: 20px 40px;
 }
 .expert__item {
   text-align: center;
