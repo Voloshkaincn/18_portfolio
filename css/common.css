@@ -7989,6 +7989,11 @@ html {
     max-width: 1140px;
   }
 }
+button {
+  background: transparent;
+  border: none;
+}
+
 .text-center {
   text-align: center;
 }
