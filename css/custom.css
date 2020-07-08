@@ -49,6 +49,9 @@ a {
   justify-content: flex-end;
 }
 
+.expert {
+  padding: 20px 40px;
+}
 .expert__item {
   text-align: center;
   margin-bottom: 50px;
