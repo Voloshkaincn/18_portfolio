@@ -16,6 +16,16 @@ a {
   font-weight: 300;
 }
 
+.coockie {
+  background: #194277;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
 .hamburger .line {
   width: 50px;
   height: 5px;
