@@ -35,6 +35,12 @@ a {
   text-align: center;
 }
 
+.main__subtitle {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
 .coockie {
   background: #194277;
   color: #fff;
