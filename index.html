@@ -44,7 +44,30 @@
                 </p>
             </div>
             <div class="row no-gutters">
-                <button class="header__btn col-xl-2">hire me</button>
+                <button type="button" class="header__btn col-xl-2" data-toggle="modal" data-target="#exampleModal">
+                    hire me
+                </button>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content modal__wrap">
+                        <div class="modal-header modal__header">
+                            <p class="modal-title modal-dialog__title">hire me</p>
+                            <button type="button" class="close modal__btn" data-dismiss="modal">x</button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="send" class="modal__form">
+                                <input type="text" placeholder="Your Name" class="form__input">
+                                <input type="email" placeholder="Your E-Mail" class="form__input">
+                                <textarea name="form-text" id="form-text" cols="30" rows="10" class="form__input"
+                                    placeholder="Your Message"></textarea>
+                            </form>
+                        </div>
+                        <div class="modal-footer modal__footer">
+                            <button type="submit" class="footer__btn" data-dismiss="modal">send message</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <img src="images/arrow.png" alt="arrow" class="header__arrow">
         </div>

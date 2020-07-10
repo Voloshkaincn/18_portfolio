@@ -153,6 +153,7 @@ a {
         display: inline-block;
         margin: 0 auto;
         margin-bottom: 90px;
+        cursor: pointer;
         @media (max-width: 1200px) {
             margin-bottom: 40px;
         }
@@ -171,6 +172,81 @@ a {
 .btn-primary {
     padding-top: 30px;
 }
+
+
+/*Modal start*/
+.modal__wrap {
+    padding: 60px 140px;
+    position: relative;
+    border-radius: 10px;
+    @media (max-width: 991px){
+        padding: 60px 40px;
+    }
+}
+
+.modal__header {
+    display: inline-flex;
+    border-bottom: none;
+}
+
+.modal-dialog__title {
+    color: $main-color;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 0;
+}
+.modal__btn {
+    color: $main-color;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: 300px;
+    top: -10px;
+}
+
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    height: 45px;
+    border: 1px solid #B7C0C9;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.form__input::placeholder {
+    color: #B7C0C9;
+    font-size: 16px;
+}
+
+.form__input:last-child {
+    height: 180px;
+}
+
+.modal__footer {
+    border-top: none;
+}
+
+.footer__btn {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    background-color: $main-color;
+    border-radius: 50px;
+    height: 55px;
+    width: 200px;
+}
+/*Modal end*/
 
 .expert {
     background: #f1f8ff;
