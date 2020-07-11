@@ -18,53 +18,6 @@ a {
     color: $main-color;
     font-weight: 300;
 }
-/*
-.main {
-    background-image: url(../images/bg_img1.png);
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-    align-items: center;
-    justify-content: center;
-}
-
-.main__pic {
-    display: block;
-    margin: 0 auto;
-    padding-top: 160px;
-}
-
-.main__title {
-    text-transform: uppercase;
-    font-size: 50px;
-    color: $text-light;
-    text-align: center;
-}
-
-.main__subtitle {
-    color: $text-light;
-    font-size: 16px;
-    text-align: center;
-    padding-bottom: 75px;
-}   
-
-.main__btn {
-    background-color: $text-light;
-    max-width: 200px;
-    min-height: 55px;
-    color: $main-color;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    border-radius: 50px;
-    display: inline-block;
-    margin: 0 auto;
-    margin-bottom: 90px;
-}
-*/
 
 .coockie {
     background: #194277;
@@ -305,4 +258,35 @@ a {
         opacity: 0.35;
         transition: all 0.5s;
     }
+}
+
+.footer1 {
+    background-image: url(../images/bg_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+
+.footer1__title {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.button__foot {
+   width: 200px;
+   height: 55px;
+   margin-top: 30px;
+   color: $main-color;
+   background-color: #fff;
+   text-transform: uppercase;
+   border-radius: 50px;
+   font-weight: bold;
+}
+
+.footer__subtitle {
+    font-weight: bold;
 }
